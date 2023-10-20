@@ -1,0 +1,42 @@
+body{
+    background-color: #1F4172;
+}
+
+.containerr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+
+}
+.bttn{
+    margin: 9px;
+    height: 200px;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 40PX;
+}
+#red{
+    background-color: red;}
+#green{
+    background-color: green;
+}
+#blue{
+   background-color: blue; 
+}
+#yellow{
+    background-color: yellow;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 0px;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
